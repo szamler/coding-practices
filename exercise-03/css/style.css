@@ -1,7 +1,28 @@
+
+
 body {
-    background-color: rgb(219, 171, 171);
+    background-color: rgb(5, 90, 91);
 }
 
 h1{
-    color:rgb(71, 113, 150)
+    color: rgb(230, 230, 230);
+    font-size: 48px ;
+    font-family: 'Righteous', cursive;
+}
+
+h3{
+    color: rgb(230, 230, 230);
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+p{
+    color: rgb(230, 230, 230);
+    font-family: 'Noto Sans JP', sans-serif;
+    padding-right: 40px;
+    padding-left: 40px;
+
+}
+
+.spaced{
+    line-height: 1.5em;
 }
