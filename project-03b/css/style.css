@@ -159,11 +159,16 @@ navbar
 #navbar {
     overflow: hidden;
     background-color: rgb(255, 255, 255);
+    position: fixed; 
+    top: 0;
+    width: 100%;
+    text-align: center;
   }
   
   /* Navbar links */
   #navbar a {
     display: inline-block;
+ 
     color: #819cae;
     text-align: center;
     padding: 14px;
