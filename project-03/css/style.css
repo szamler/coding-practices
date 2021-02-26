@@ -1,0 +1,119 @@
+/* ----------------------------------------
+Base Styles
+------------------------------------------- */
+* {
+	box-sizing: border-box;
+}
+
+
+/* ----------------------------------------
+Typography
+------------------------------------------- */
+
+h1{
+    color: #44545e;
+    font-size: 24px ;
+    letter-spacing: 6px;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-weight: 900; 
+    text-align: center;
+}
+
+h2{
+    color: #44545e;
+    font-size: 16px ;
+    font-family: 'Noto Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+h3{
+    color: #44545e;
+    font-size: 12px ;
+    font-family: 'Noto Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+h4{
+    color: #819cae;
+    font-size: 12px ;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 900;
+}
+
+
+p{
+    color: #45555f;
+    font-size: 12px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    line-height: 1.68;
+
+}
+
+
+
+
+
+
+
+/* ----------------------------------------
+Lists
+------------------------------------------- */
+ul.container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    list-style: none;
+    line-height: 60px;
+  }
+  
+  .container a {
+    text-decoration: none;
+    color: #819cae;
+    font-size: 10px ;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 900;
+    letter-spacing: 2px;
+  }
+
+
+/* ----------------------------------------
+Layout
+------------------------------------------- */
+nav {
+    height: 60px;
+  }
+  
+.container {
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+
+ img{
+      max-width: 100%;
+      height: auto;
+      width: auto; 
+      }
+
+.aboutimg {
+    height: auto;
+    width: 300px; 
+    }
+
+/* ----------------------------------------
+Header
+------------------------------------------- */
+
+
+/* ----------------------------------------
+Buttons
+------------------------------------------- */
+
+
+
+/* ----------------------------------------
+Footer
+------------------------------------------- */

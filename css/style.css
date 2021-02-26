@@ -1,0 +1,44 @@
+
+body {
+    background-color: rgb(243, 235, 214);
+}
+
+h1{
+    color: rgb(26, 70, 20);
+    font-size: 48px ;
+    font-family: 'Righteous', cursive;
+}
+
+h2{
+    color: rgb(26, 70, 20);
+    font-size: 24px ;
+    font-family: 'Righteous', cursive;
+    letter-spacing: 4px;
+}
+
+h3{
+    color: rgb(26, 70, 20);
+    font-size: 12px ;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+p{
+    color: rgb(26, 70, 20);
+    font-family: 'Noto Sans JP', sans-serif;
+    text-decoration: none;
+    padding-right: 40px;
+    padding-left: 40px;
+
+}
+
+ul{
+    color: rgb(26, 70, 20);
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Noto Sans JP', sans-serif;
+    text-decoration: none;
+}
+
+.spaced{
+    line-height: 1.5em;
+}
