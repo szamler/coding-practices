@@ -11,7 +11,7 @@ Typography
 ------------------------------------------- */
 
 h1{
-    color: #44545e;
+    color: #ffffff;
     font-size: 24px ;
     letter-spacing: 6px;
     font-family: 'Raleway', sans-serif;
@@ -69,8 +69,8 @@ ul.container {
     list-style: none;
     line-height: 60px;
   }
-  
-  .container a {
+
+.container a {
     text-decoration: none;
     color: #819cae;
     font-size: 10px ;
@@ -78,6 +78,16 @@ ul.container {
     font-weight: 900;
     letter-spacing: 2px;
   }
+
+.Issues {
+        text-decoration: none;
+        color: #819cae;
+        font-size: 10px ;
+        font-family: 'Noto Sans', sans-serif;
+        font-weight: 900;
+        letter-spacing: 2px;
+      }
+
 
 
 /* ----------------------------------------
@@ -92,9 +102,10 @@ nav {
     padding-right: 15%;
   }
 
+
  img{
       max-width: 100%;
-      height: auto;
+      height: unset;
       width: auto; 
       }
 
@@ -103,26 +114,87 @@ nav {
     width: 300px; 
     }
 
+
+.flex-container {
+        display: flex;
+        justify-content: space-between;
+        align-items:center;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+
+.row {
+    display: flex;
+    line-height: 1.68;
+    justify-content:space-between;
+    }
+      
+      
+.column {
+        flex-direction: column;
+        justify-content:space-between;
+        display: flex;
+        padding-right: 7px;
+      }
+      
+
 /* ----------------------------------------
 Header
 ------------------------------------------- */
 header{
     background-image: url("blog_header_bg.jpg");
-    background-size:auto;
-    background-position:top;
+    background-size:cover;
+    background-position:center;
 }
 
 .header{
-    padding-top: 20px;
-    height: 175px;
+    padding-top: 130px;
+    height: 300px;
 }
 
 /* ----------------------------------------
-Buttons
+navbar
 ------------------------------------------- */
-
-
-
+/* Style the navbar */
+#navbar {
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    position: fixed; 
+    top: 0;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Navbar links */
+  #navbar a {
+    display: inline-block;
+ 
+    color: #819cae;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-size: 10px ;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 900;
+    letter-spacing: 2px;
+  }
+  
+  /* Page content */
+  .content {
+    padding: 16px;
+  }
+  
+  /* The sticky class is added to the navbar with JS when it reaches its scroll position */
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky + .content {
+    padding-top: 10px;
+  }
 /* ----------------------------------------
 Footer
 ------------------------------------------- */
