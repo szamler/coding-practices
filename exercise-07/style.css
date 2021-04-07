@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Open+Sans&display=swap");
+
+body {
+  font-family: "Open Sans", sans-serif;
+  color: rgb(7, 56, 7);
+}
+
+/*.container {
+}
+*/
+
+.container{
+    width: 80%;
+    background-color: greenyellow;
+}
+
+@media screen and (max-width: 660px) {
+    .container {
+        /*width: 100%;*/
+        background-color: rgb(177, 89, 89);
+    }
+  }
+
+  @media screen and (max-width: 450px) {
+    .container {
+        /*width: 100%;*/
+        background-color: orange;
+    }
+  }
