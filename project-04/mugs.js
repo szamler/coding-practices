@@ -1,8 +1,10 @@
 const artists = [
     {
-      name: "Mug 12",
-      mug_color: "Grey",
-      mug_score: "10",
+      name: "Mug 1",
+      mug_weight: "Weight: 382g",
+      mug_handle: "Handle Length: 3.5in",
+      mug_volume: "Volume: 14oz",
+      notes: "Notes: Some Cracking",
       works: [
         {
           title: "",
