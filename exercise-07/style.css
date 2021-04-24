@@ -1,29 +1,48 @@
-@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Open+Sans&display=swap");
-
 body {
-  font-family: "Open Sans", sans-serif;
-  color: rgb(7, 56, 7);
+  margin: 3em;
+  padding: 0;
+  font-family: sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
 }
 
-/*.container {
+h1 {
+  line-height: 1.25;
+  margin: 2em 0 0;
 }
-*/
-
-.container{
-    width: 80%;
-    background-color: greenyellow;
+p {
+  margin: 0.5em 0;
 }
 
-@media screen and (max-width: 660px) {
-    .container {
-        /*width: 100%;*/
-        background-color: rgb(177, 89, 89);
-    }
-  }
+#switcher {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+#switcher li {
+  float: left;
+  width: 30px;
+  height: 30px;
+  margin: 0 15px 15px 0;
+  border-radius: 30px;
+  border: 3px solid black;
+}
 
-  @media screen and (max-width: 450px) {
-    .container {
-        /*width: 100%;*/
-        background-color: orange;
-    }
-  }
+#grayButton {
+  background: gray;
+}
+#whiteButton {
+  background: white;
+}
+#blueButton {
+  background: blue;
+}
+#yellowButton {
+  background: yellow;
+}
+
+.gray {
+  background-color: grey;
+}
+

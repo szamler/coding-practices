@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Noto');
+
+body, 
+html{
+  font-family: 'Noto', sans-serif;  
+}
+
+nav {
+   height: 60px; 
+}
+
+ul.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background: tomato;
+  padding: 30px;
+}
+

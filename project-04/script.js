@@ -17,4 +17,3 @@ function mugSelect(element) {
   document.querySelector("#selectedMug").src = element.srcElement.src;
   document.querySelector(".result").scrollIntoView()
 }
-

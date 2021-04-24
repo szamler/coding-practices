@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Open+Sans&display=swap");
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+
+.button {
+  width: 50px;
+  height: 20px;
+  border-radius: 15px;
+  padding: 30px;
+color: tomato;
+background-color: yellow;
+transition-property: background-color;
+transition-duration: 2s;
+transition-timing-function: ease-in;
+transition-delay: 1s;
+}
+
+.button:hover{
+background-color: tomato;
+}
