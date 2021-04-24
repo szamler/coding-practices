@@ -170,6 +170,7 @@ div.hovertext, div.hovertext:hover {
   width: 210px;
   height: 220px;
   margin-top: 10px;
+  pointer-events: none;
   
 }
 

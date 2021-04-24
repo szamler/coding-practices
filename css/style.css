@@ -1,4 +1,7 @@
-
+.site{
+    width: 1280px;
+    padding: 50px;
+}
 body {
     background-color: rgb(243, 235, 214);
 }
@@ -38,6 +41,15 @@ ul{
     font-family: 'Noto Sans JP', sans-serif;
     text-decoration: none;
 }
+
+a {
+    color: rgb(26, 70, 20);
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Noto Sans JP', sans-serif;
+    text-decoration: none;
+    line-height: 200%;
+  }
 
 .spaced{
     line-height: 1.5em;

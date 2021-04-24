@@ -14,6 +14,7 @@ document.querySelector("#selectedDrink").src = element.srcElement.src
 }
 
 function mugSelect(element) {
+  console.log("#selectedMug")
   document.querySelector("#selectedMug").src = element.srcElement.src;
   document.querySelector(".result").scrollIntoView()
 }

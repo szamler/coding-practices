@@ -29,20 +29,41 @@ p {
   border: 3px solid black;
 }
 
+/* button colors */
+
 #grayButton {
-  background: gray;
+  background-color: gray;
 }
+
 #whiteButton {
   background: white;
 }
+
 #blueButton {
   background: blue;
 }
+
 #yellowButton {
   background: yellow;
 }
 
-.gray {
+/* background colors */
+
+.gray-theme {
   background-color: grey;
+}
+
+.white-theme {
+  background-color: white;
+}
+
+.yellow-theme {
+  background-color: yellow;
+}
+
+.blue-theme {
+  background-color: blue;
+  /*   change text to white */
+  color: white;
 }
 

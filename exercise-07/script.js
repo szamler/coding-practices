@@ -16,21 +16,24 @@ yellowCircle.addEventListener("click", turnYellow);
 function turnGray() {
   console.log("gray button");
 
-  body.style.backgroundColor = "gray";
-  // body.classList.add("gray");
+  // body.style.backgroundColor = "gray";
+  body.classList.add("gray-theme");
 }
 
 function turnWhite() {
   console.log("white button");
-  body.style.backgroundColor = "white";
+  // body.style.backgroundColor = "white";
+  body.classList.add("white-theme");
 }
 
 function turnBlue() {
   console.log("blue button");
-  body.style.backgroundColor = "blue";
+  // body.style.backgroundColor = "blue";
+  body.classList.add("blue-theme");
 }
 
 function turnYellow() {
   console.log("yellow button");
-  body.style.backgroundColor = "yellow";
+  // body.style.backgroundColor = "yellow";
+  body.classList.add("yellow-theme");
 }

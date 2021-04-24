@@ -1,20 +1,51 @@
-@import url('https://fonts.googleapis.com/css?family=Noto');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 
 body, 
 html{
-  font-family: 'Noto', sans-serif;  
+  font-family: 'Roboto', sans-serif;  
 }
 
 nav {
-   height: 60px; 
+  height: 60px;
 }
 
 ul.container {
   display: flex;
-  flex-direction: row;
+  flex-wrap: nowrap;
   justify-content: space-around;
-  align-items: center;
-  background: tomato;
-  padding: 30px;
+  
+  list-style: none;
+  background: rgb(131, 172, 172);
+  margin: 0;
+  line-height: 60px;
 }
 
+.container a {
+  text-decoration: none;
+  color: #F4F4F4;
+}
+
+li {
+  padding: 0 40px;
+}
+
+li:hover {
+  animation: colors 3s ease-in-out .2s;
+}
+
+@keyframes colors {
+  0% {
+    background-color: tomato;
+  }
+  40% {
+    background-color: #CC0000;
+/*     color: rgba(200,155,20,0.8); */
+  }
+  60% {
+    background-color: #800000;
+  }
+  100% {
+    background-color: tomato;
+  }
+
+}
