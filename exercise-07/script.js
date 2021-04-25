@@ -1,3 +1,11 @@
+/* 
+
+Instructions: when a user clicks on one of the colored dots, the    background color of the entire page changes to match that dot. You should not need to change any HTML or CSS. 
+
+Hint: Classes for each color have already been defined in the CSS tab.
+
+*/
+
 // 1 -- Select each circle
 let grayCircle = document.getElementById("grayButton");
 let whiteCircle = document.getElementById("whiteButton");

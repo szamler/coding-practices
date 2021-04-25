@@ -1,17 +1,17 @@
 let array_one = [
-    "a house of wood",
-    "a house of brick",
-    "a house of broken dishes",
-    "a house of discarded clothing",
-    "a house of dust"
+    "a torn paper",
+    "a blue paper",
+    "a handwritten paper",
+    "a mysterious paper",
+    "a piece of paper"
   ];
   
   let array_two = [
-    "among other houses",
-    "among small hills",
-    "among high montains",
+    "on the ground",
+    "behind the cabinet",
+    "in the grass",
     "by a river",
-    "by an abandoned lake"
+    "in my bag"
   ];
   
   // let randomElement = arrayName[Math.floor(Math.random()*arrayName.length)];
