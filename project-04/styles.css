@@ -98,6 +98,12 @@ h3{
 
 body { font-family: sans-serif; }
 
+.submit {
+  text-align: left;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: small;
+}
+
 
 
 /* ---- grid ---- */
